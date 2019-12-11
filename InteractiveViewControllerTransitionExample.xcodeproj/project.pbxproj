@@ -12,6 +12,10 @@
 		1177A22D23A1743900CA8428 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A22C23A1743900CA8428 /* ViewController.swift */; };
 		1177A23223A1743900CA8428 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1177A23123A1743900CA8428 /* Assets.xcassets */; };
 		1177A23523A1743900CA8428 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1177A23323A1743900CA8428 /* LaunchScreen.storyboard */; };
+		1177A23D23A1958300CA8428 /* CardModalDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A23C23A1958300CA8428 /* CardModalDismissAnimator.swift */; };
+		1177A23F23A1969B00CA8428 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A23E23A1969B00CA8428 /* ModalViewController.swift */; };
+		1177A24123A196AF00CA8428 /* CardModalPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A24023A196AF00CA8428 /* CardModalPresentAnimator.swift */; };
+		1177A24323A196CA00CA8428 /* CardPresentationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1177A24223A196CA00CA8428 /* CardPresentationCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		1177A23123A1743900CA8428 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1177A23423A1743900CA8428 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1177A23623A1743900CA8428 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1177A23C23A1958300CA8428 /* CardModalDismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModalDismissAnimator.swift; sourceTree = "<group>"; };
+		1177A23E23A1969B00CA8428 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		1177A24023A196AF00CA8428 /* CardModalPresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModalPresentAnimator.swift; sourceTree = "<group>"; };
+		1177A24223A196CA00CA8428 /* CardPresentationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresentationCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				1177A23123A1743900CA8428 /* Assets.xcassets */,
 				1177A23323A1743900CA8428 /* LaunchScreen.storyboard */,
 				1177A23623A1743900CA8428 /* Info.plist */,
+				1177A23C23A1958300CA8428 /* CardModalDismissAnimator.swift */,
+				1177A23E23A1969B00CA8428 /* ModalViewController.swift */,
+				1177A24023A196AF00CA8428 /* CardModalPresentAnimator.swift */,
+				1177A24223A196CA00CA8428 /* CardPresentationCoordinator.swift */,
 			);
 			path = InteractiveViewControllerTransitionExample;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1177A22D23A1743900CA8428 /* ViewController.swift in Sources */,
+				1177A23F23A1969B00CA8428 /* ModalViewController.swift in Sources */,
 				1177A22923A1743900CA8428 /* AppDelegate.swift in Sources */,
 				1177A22B23A1743900CA8428 /* SceneDelegate.swift in Sources */,
+				1177A24123A196AF00CA8428 /* CardModalPresentAnimator.swift in Sources */,
+				1177A24323A196CA00CA8428 /* CardPresentationCoordinator.swift in Sources */,
+				1177A23D23A1958300CA8428 /* CardModalDismissAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
