@@ -30,6 +30,7 @@
 		1177A23E23A1969B00CA8428 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 		1177A24023A196AF00CA8428 /* CardModalPresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModalPresentAnimator.swift; sourceTree = "<group>"; };
 		1177A24223A196CA00CA8428 /* CardPresentationCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPresentationCoordinator.swift; sourceTree = "<group>"; };
+		1177A24423A196FA00CA8428 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 				1177A23E23A1969B00CA8428 /* ModalViewController.swift */,
 				1177A24023A196AF00CA8428 /* CardModalPresentAnimator.swift */,
 				1177A24223A196CA00CA8428 /* CardPresentationCoordinator.swift */,
+				1177A24423A196FA00CA8428 /* README.md */,
 			);
 			path = InteractiveViewControllerTransitionExample;
 			sourceTree = "<group>";
